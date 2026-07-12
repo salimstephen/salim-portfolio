@@ -1,0 +1,171 @@
+.skills {
+    padding: 120px 8%;
+}
+
+.skills-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Section Heading */
+.skills h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+/* Blue line below heading */
+.skills h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #2563eb;
+    margin: 15px auto 0;
+    border-radius: 20px;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+}
+
+/* Skill Card */
+.skill-card {
+    background: linear-gradient(180deg, #ffffff, #f8fafc);
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 160px;
+
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.skill-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#2563eb;
+
+    box-shadow:0 20px 40px rgba(37,99,235,.18);
+
+}
+/* Skill Icon */
+.skill-icon{
+
+    font-size:3.2rem;
+
+    color:#2563eb;
+
+    margin-bottom:18px;
+
+    transition:.35s;
+
+}
+.skill-card:hover .skill-icon{
+
+    transform:scale(1.15);
+
+}
+
+/* Make SQL icon match the others */
+.sql-icon {
+    font-size: 4rem;
+}
+
+/* Skill Name */
+.skill-card h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+/* Skill Description */
+.skill-card p {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #64748b;
+    text-align: center;
+}
+.skills{
+
+    padding:100px 8%;
+
+    scroll-margin-top:90px;
+
+}
+/* ===========================
+   TABLET
+=========================== */
+
+@media (max-width: 992px) {
+
+    .skills-grid{
+    
+        grid-template-columns:repeat(2,1fr);
+    
+        gap:25px;
+    
+    }
+    
+    }
+    /* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width:768px){
+
+.skills{
+
+    padding:80px 6%;
+
+}
+
+.skills h2{
+
+    font-size:2.2rem;
+
+}
+
+.skills-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.skill-card{
+
+    height:auto;
+
+    padding:35px 20px;
+
+}
+
+.skill-icon{
+
+    font-size:3.2rem;
+
+}
+
+.skill-card h3{
+
+    font-size:1.15rem;
+
+}
+
+}
