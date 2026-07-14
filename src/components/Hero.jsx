@@ -52,7 +52,7 @@ function Hero() {
 
                 <h3>1+</h3>
 
-                <p>Completed Project</p>
+                <p>Project</p>
 
             </div>
 
@@ -60,7 +60,7 @@ function Hero() {
 
                 <h3>6</h3>
 
-                <p>Professional Certification</p>
+                <p>Certificates</p>
 
             </div>
 
