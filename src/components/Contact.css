@@ -1,6 +1,10 @@
 .contact{
-    padding:100px 8%;
     background:#f8fafc;
+    border-bottom:1px solid #f1f5f9;
+
+    padding:70px 8%;
+    
+    scroll-margin-top:90px;
 }
 
 .contact-container{
@@ -12,7 +16,7 @@
 .contact-container h2{
     font-size:2.8rem;
     color:#1e293b;
-    margin-bottom:20px;
+    margin-bottom:35px;
     position:relative;
 }
 
@@ -29,7 +33,7 @@
 .contact-intro{
     max-width:760px;
     margin:25px auto 60px;
-    line-height:1.9;
+    line-height:1.8;
     color:#64748b;
     font-size:1.1rem;
 }
@@ -56,6 +60,7 @@
 .contact-card:hover{
     transform:translateY(-8px);
     box-shadow:0 18px 40px rgba(37,99,235,.18);
+    transition:.35s;
 }
 
 .contact-icon{
@@ -115,6 +120,7 @@
 .contact-button a:hover{
     background:#1d4ed8;
     transform:translateY(-3px);
+    transition:.35s;
 }
 
 @media(max-width:768px){
@@ -130,11 +136,4 @@
 .contact-intro{
     font-size:1rem;
 }
-}
-.contact{
-
-    padding:100px 8%;
-
-    scroll-margin-top:90px;
-
 }

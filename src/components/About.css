@@ -1,9 +1,15 @@
-.about {
-    padding: 120px 8%;
+.about{
+
+    padding:80px 8%;
+
+    scroll-margin-top:90px;
+    
+    border-bottom:1px solid #f1f5f9;
+
 }
 
 .about-container {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -33,7 +39,7 @@
     max-width: 850px;
     margin: 0 auto;
     font-size: 1.2rem;
-    line-height: 2;
+    line-height:1.8;
     color: #4b5563;
     transition: transform 0.3s ease;
 }
@@ -41,6 +47,7 @@
 /* Small hover effect */
 .about-text p:hover {
     transform: scale(1.01);
+    transition:.35s;
 }
 
 /* Highlight important words */
@@ -48,10 +55,4 @@
     color: #2563eb;
     font-weight: 600;
 }
-.about{
 
-    padding:100px 8%;
-
-    scroll-margin-top:90px;
-
-}
