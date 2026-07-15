@@ -20,7 +20,7 @@ function Hero() {
         </h1>
 
         <h2>
-            Data Scientist
+        Junior Data Scientist
             <br />
             <span>Machine Learning Enthusiast</span>
         </h2>
