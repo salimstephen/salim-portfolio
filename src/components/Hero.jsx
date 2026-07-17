@@ -40,7 +40,7 @@ function Hero() {
                 View My Work
             </a>
 
-            <a href="/Salim_Stephen_Junior_Data_Scientist_CV.pdf" className="secondary-btn">
+            <a href="/Salim_Stephen_Junior_Data_Scientist_CV.pdf.pdf" className="secondary-btn">
                 Download CV
             </a>
 
