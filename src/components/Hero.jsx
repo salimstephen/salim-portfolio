@@ -15,7 +15,7 @@ function Hero() {
 
             Hi, I'm
 
-            <span>Salim Stephen</span>
+            <span>Stephen (Salim) Otieno </span>
 
         </h1>
 
@@ -40,7 +40,7 @@ function Hero() {
                 View My Work
             </a>
 
-            <a href="/Stephen_Salim_CV.pdf" className="secondary-btn">
+            <a href="/Salim_Stephen_Junior_Data_Scientist_CV.pdf" className="secondary-btn">
                 Download CV
             </a>
 
