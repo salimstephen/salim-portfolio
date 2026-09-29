@@ -1,4 +1,5 @@
 import "./Footer.css";
+
 import {
     FaGithub,
     FaLinkedin,
@@ -8,42 +9,49 @@ import {
 function Footer() {
     return (
         <footer className="footer">
-    <div className="footer-container">
 
-        <h3>Stephen Salim</h3>
+            <div className="footer-container">
 
-        <p>Data Scientist | Machine Learning Enthusiast</p>
+                <h3>Stephen Salim</h3>
 
-        <div className="footer-socials">
+                <p>Data Science & Analytics Professional</p>
 
-    <a
-        href="https://github.com/salimstephen"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        <FaGithub />
-    </a>
+                <div className="footer-socials">
 
-    <a
-        href="https://linkedin.com/in/otienostephen991"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        <FaLinkedin />
-    </a>
+                    <a
+                        href="https://github.com/salimstephen"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub"
+                    >
+                        <FaGithub />
+                    </a>
 
-    <a href="mailto:otienostephen991@gmail.com">
-        <FaEnvelope />
-    </a>
+                    <a
+                        href="https://www.linkedin.com/in/otieno-stephen"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn"
+                    >
+                        <FaLinkedin />
+                    </a>
 
-</div>
+                    <a
+                        href="mailto:otienostephen991@gmail.com"
+                        aria-label="Email"
+                    >
+                        <FaEnvelope />
+                    </a>
 
-        <p>
-            © 2026 Stephen Salim. Built with React.
-        </p>
+                </div>
 
-    </div>
-</footer>
+                <p>
+                    © 2026 Stephen Salim. Built with React.
+                </p>
+
+            </div>
+
+        </footer>
     );
 }
 
