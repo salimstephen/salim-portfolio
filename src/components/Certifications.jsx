@@ -5,7 +5,8 @@ import {
     FaPython,
     FaRobot,
     FaChartBar,
-    FaUserGraduate
+    FaUserGraduate,
+    FaDatabase
 } from "react-icons/fa";
 
 import DataScience from "../assets/certificates/data-science.png";
@@ -14,6 +15,8 @@ import Python from "../assets/certificates/python-certificate.png";
 import AiCE from "../assets/certificates/alx-aice-essential.png";
 import Foundation from "../assets/certificates/professional-foundation.png";
 import StarterKit from "../assets/certificates/alx-ai-starter-kit.png";
+import MachineLearning from "../assets/certificates/machine-learning.png";
+import IBMDataFundamentals from "../assets/certificates/ibm-data-fundamentals.png";
 
 function Certifications() {
 
@@ -22,10 +25,28 @@ function Certifications() {
         {
             title: "Data Science Professional Certificate",
             organization: "ALX Africa",
-            skills: "Python • Machine Learning • Data Analysis",
+            skills: "Python • Data Analysis • Machine Learning",
             year: "2026",
             image: DataScience,
             icon: <FaAward />
+        },
+
+        {
+            title: "Machine Learning Certificate",
+            organization: "ALX Africa",
+            skills: "Machine Learning • Python • Predictive Modeling",
+            year: "2026",
+            image: MachineLearning,
+            icon: <FaRobot />
+        },
+
+        {
+            title: "IBM Data Fundamentals",
+            organization: "IBM SkillsBuild",
+            skills: "Data Fundamentals • Analytics • Data Concepts",
+            year: "2026",
+            image: IBMDataFundamentals,
+            icon: <FaDatabase />
         },
 
         {
@@ -49,7 +70,7 @@ function Certifications() {
         {
             title: "AI Career Essentials",
             organization: "ALX Africa",
-            skills: "Artificial Intelligence",
+            skills: "Artificial Intelligence • Digital Skills",
             year: "2025",
             image: AiCE,
             icon: <FaRobot />
@@ -58,7 +79,7 @@ function Certifications() {
         {
             title: "Professional Foundations",
             organization: "ALX Africa",
-            skills: "Leadership • Communication",
+            skills: "Leadership • Communication • Professional Skills",
             year: "2025",
             image: Foundation,
             icon: <FaUserGraduate />
@@ -67,7 +88,7 @@ function Certifications() {
         {
             title: "AI Starter Kit",
             organization: "ALX Africa",
-            skills: "Artificial Intelligence",
+            skills: "Artificial Intelligence • AI Fundamentals",
             year: "2025",
             image: StarterKit,
             icon: <FaRobot />
@@ -77,68 +98,67 @@ function Certifications() {
 
     return (
 
-<section id="certifications" className="certifications">
+        <section id="certifications" className="certifications">
 
-<div className="certifications-container">
+            <div className="certifications-container">
 
-<h2>Professional Certifications</h2>
+                <h2>Professional Certifications</h2>
 
-<p className="certifications-intro">
+                <p className="certifications-intro">
 
-My commitment to continuous learning has enabled me to build a strong foundation in
-Data Science, Data Analytics, Python, Artificial Intelligence, and Professional Development.
+                    My commitment to continuous learning has enabled me to build a strong
+                    foundation in Data Science, Data Analytics, Python, Machine Learning,
+                    Artificial Intelligence, and professional development.
 
-</p>
+                </p>
 
-<div className="certifications-summary">
+                <div className="certifications-summary">
 
-🏆 <span>6 Professional Certifications</span>
+                    🏆 <span>8 Professional Certifications</span>
 
-</div>
+                </div>
 
-<div className="certifications-grid">
+                <div className="certifications-grid">
 
-{certificates.map((certificate,index)=>(
+                    {certificates.map((certificate, index) => (
 
-<div className="certificate-card" key={index}>
+                        <div className="certificate-card" key={index}>
 
-<div className="certificate-icon">
+                            <div className="certificate-icon">
 
-{certificate.icon}
+                                {certificate.icon}
 
-</div>
+                            </div>
 
-<h3>{certificate.title}</h3>
+                            <h3>{certificate.title}</h3>
 
-<p>{certificate.organization}</p>
+                            <p>{certificate.organization}</p>
 
-<span>{certificate.year}</span>
+                            <span>{certificate.year}</span>
 
-<div className="certificate-skills">
+                            <div className="certificate-skills">
 
-{certificate.skills}
+                                {certificate.skills}
 
-</div>
+                            </div>
 
-<a
-href={certificate.image}
-target="_blank"
-rel="noopener noreferrer"
->
+                            <a
+                                href={certificate.image}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View Credential →
+                            </a>
 
-View Credential →
+                        </div>
 
-</a>
+                    ))}
 
-</div>
+                </div>
 
-))}
+            </div>
 
-</div>
-
-</div>
-
-</section>
+        </section>
 
     );
 

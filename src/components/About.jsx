@@ -3,21 +3,47 @@ import "./About.css";
 function About() {
     return (
         <section id="about" className="about">
+
             <div className="about-container">
-            <div className="about-text">
-    <h2>About Me</h2>
 
-    <p>
-My journey into <span>Data Science</span> started with a simple curiosity about how data can be used to solve <span>real-world problems</span> and support better decision-making. That curiosity quickly grew into a passion for learning, building, and continuously improving my skills.
+                <div className="about-text">
 
-After completing my <span>Data Science certification</span>, I made a commitment to go beyond the classroom by working on <span>practical projects</span> that challenge me to apply what I've learned. From <span>data analysis</span> and visualization to machine learning, I enjoy turning data into <span>meaningful insights</span> and developing solutions that create value.
+                    <h2>About Me</h2>
 
-I'm currently focused on strengthening my expertise in <span>Machine Learning</span>, expanding my portfolio with <span>real-world projects</span>, and growing into a confident <span>Data Scientist</span> who never stops learning. I believe that <span>consistency</span>, <span>curiosity</span>, and <span>hands-on experience</span> are the foundation of long-term success in technology.
-    </p>
-</div>
+                    <p>
+                        I'm a <span>Data Science & Analytics professional</span>
+                        focused on using data to understand problems, uncover
+                        insights, and build practical solutions. My learning
+                        journey has been driven by curiosity, hands-on practice,
+                        and a commitment to continuously improving my technical
+                        skills.
+                    </p>
 
-</div>
+                    <p>
+                        I've developed practical experience across
+                        <span> Python</span>, <span>SQL</span>,
+                        <span> Power BI</span>, <span>Excel</span>, and
+                        <span> machine learning</span> through data analysis,
+                        visualization, and machine learning projects. I enjoy
+                        working with data from the initial exploration and
+                        cleaning stages through to analysis, visualization, and
+                        communicating useful findings.
+                    </p>
 
+                    <p>
+                        I'm currently building on this foundation by strengthening
+                        my <span>machine learning</span> skills, expanding my
+                        portfolio with <span>real-world projects</span>, and
+                        developing the practical experience needed to contribute
+                        effectively in a professional data team. I believe that
+                        <span> consistency</span>, <span>curiosity</span>, and
+                        <span>hands-on experience</span> are essential to growing
+                        in technology.
+                    </p>
+
+                </div>
+
+            </div>
 
         </section>
     );

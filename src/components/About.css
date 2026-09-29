@@ -37,18 +37,13 @@
 
 .about-text p {
     max-width: 850px;
-    margin: 0 auto;
-    font-size: 1.2rem;
-    line-height:1.8;
+    margin: 0 auto 24px;
+    font-size: 1.15rem;
+    line-height: 1.8;
     color: #4b5563;
-    transition: transform 0.3s ease;
 }
 
-/* Small hover effect */
-.about-text p:hover {
-    transform: scale(1.01);
-    transition:.35s;
-}
+
 
 /* Highlight important words */
 .about-text span {

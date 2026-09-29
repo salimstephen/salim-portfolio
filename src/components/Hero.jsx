@@ -5,84 +5,79 @@ function Hero() {
     return (
         <section id="home" className="hero">
 
-    <div className="hero-content">
+            <div className="hero-content">
 
-        <div className="hero-badge">
-            🟢 Available for Data Science Opportunities
-        </div>
+                <div className="hero-badge">
+                    🟢 Open to Data & Analytics Opportunities
+                </div>
 
-        <h1>
+                <h1>
+                    Hi, I'm
+                    <span>Stephen (Salim) Otieno</span>
+                </h1>
 
-            Hi, I'm
+                <h2>
+                    Data Science & Analytics Professional
+                    <br />
+                    <span>Python • SQL • Power BI • Machine Learning</span>
+                </h2>
 
-            <span>Stephen (Salim) Otieno </span>
+                <p>
+                    I build practical data science and analytics projects that
+                    turn data into useful insights and solutions. My work spans
+                    data analysis, visualization, and machine learning, with a
+                    focus on developing practical skills through hands-on
+                    projects and continuous learning.
+                </p>
 
-        </h1>
+                <div className="hero-buttons">
 
-        <h2>
-        Junior Data Scientist
-            <br />
-            <span>Machine Learning Enthusiast</span>
-        </h2>
+                    <a href="#projects" className="primary-btn">
+                        View My Work
+                    </a>
 
-        <p>
+                    <a
+    href="/Salim_Stephen_Junior_Data_Scientist_CV.pdf"
+    className="secondary-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    Download CV
+</a>
 
-            I build practical data science solutions that transform data into meaningful insights.
-            My focus is on machine learning, analytics, and solving real-world problems through
-            hands-on projects. I'm continuously learning, improving my skills, and ready to
-            contribute to impactful teams.
+                </div>
 
-        </p>
+                <div className="hero-stats">
 
-        <div className="hero-buttons">
+                    <div>
+                        <h3>3+</h3>
+                        <p>Portfolio Projects</p>
+                    </div>
 
-            <a href="#projects" className="primary-btn">
-                View My Work
-            </a>
+                    <div>
+                        <h3>Python</h3>
+                        <p>Data Science</p>
+                    </div>
 
-            <a href="/Salim_Stephen_Junior_Data_Scientist_CV.pdf.pdf" className="secondary-btn">
-                Download CV
-            </a>
+                    <div>
+                        <h3>SQL</h3>
+                        <p>Data Analysis</p>
+                    </div>
 
-        </div>
-
-        <div className="hero-stats">
-
-            <div>
-
-                <h3>1+</h3>
-
-                <p>Project</p>
-
-            </div>
-
-            <div>
-
-                <h3>6</h3>
-
-                <p>Certificates</p>
-
-            </div>
-
-            <div>
-
-                <h3>100%</h3>
-
-                <p>Committed to Learning</p>
+                </div>
 
             </div>
 
-        </div>
+            <div className="hero-image">
 
-    </div>
+                <img
+                    src={heroImage}
+                    alt="Stephen (Salim) Otieno"
+                />
 
-    <div className="hero-image">
+            </div>
 
-        <img src={heroImage} alt="Salim Stephen" />
-
-    </div>
-
-</section>
+        </section>
     );
 }
 
